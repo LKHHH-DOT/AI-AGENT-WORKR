@@ -1,0 +1,61 @@
+[
+  {
+    "_id": "1782912480499334655",
+    "title": "用户测试问卷",
+    "description": "测试",
+    "type": "questionnaire",
+    "creatorId": "u_test_001",
+    "aiMode": "strict",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "text",
+        "title": "你的梦想是什么",
+        "options": [],
+        "required": true,
+        "aiCheck": true,
+        "maxLength": 2000
+      }
+    ],
+    "responses": [
+      {
+        "_id": "r_1782912480513_ehkw",
+        "respondentName": "匿名",
+        "answers": [
+          {
+            "questionId": "q1",
+            "question": "你的梦想是什么",
+            "answer": "我的梦想是环游世界",
+            "aiPassed": true,
+            "aiScore": 28,
+            "aiFeedback": "好回答"
+          }
+        ],
+        "fillTime": 120,
+        "ip": "::1",
+        "submittedAt": "2026-07-01T13:28:00.513Z",
+        "allPassed": true
+      },
+      {
+        "_id": "r_1782913282507_cfev",
+        "respondentName": "匿名",
+        "answers": [
+          {
+            "questionId": "q1",
+            "question": "你的梦想是什么",
+            "answer": "我的梦想是成为一个可以帮助国家的一个合格硬件开发工程师",
+            "aiPassed": true,
+            "aiScore": 21,
+            "aiFeedback": "回答合理"
+          }
+        ],
+        "fillTime": 108,
+        "ip": "::1",
+        "submittedAt": "2026-07-01T13:41:22.507Z",
+        "allPassed": true
+      }
+    ],
+    "createdAt": "2026-07-01T13:28:00.499Z",
+    "updatedAt": "2026-07-01T13:41:22.508Z"
+  }
+]
