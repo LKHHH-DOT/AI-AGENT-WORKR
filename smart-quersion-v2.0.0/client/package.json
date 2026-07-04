@@ -1,0 +1,19 @@
+{
+    "name": "client",
+    "version": "2.0.0",
+    "description": "智能问卷系统 - 前端",
+    "main": "index.js",
+    "scripts": {
+        "dev": "npx vite",
+        "build": "npx vite build",
+        "preview": "npx vite preview"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "devDependencies": {
+        "@vitejs/plugin-react": "^6.0.3",
+        "vite": "^8.1.2"
+    }
+}

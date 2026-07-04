@@ -1,0 +1,38 @@
+{
+    "name": "smart-quersion",
+    "version": "2.0.0",
+    "description": "智能问卷系统 - AI驱动的问卷审核平台",
+    "main": "server/index.js",
+    "scripts": {
+        "start": "node server/index.js",
+        "dev": "node server/index.js & cd client && npx vite --port 3000",
+        "build": "cd client && npx vite build",
+        "prod": "npm run build && set NODE_ENV=production && node server/index.js",
+        "version": "node scripts/version.js"
+    },
+    "keywords": [],
+    "author": "Smart Questionnaire Team",
+    "license": "ISC",
+    "type": "commonjs",
+    "dependencies": {
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.1",
+        "@mui/icons-material": "^9.1.1",
+        "@mui/material": "^9.1.2",
+        "axios": "^1.18.1",
+        "bcryptjs": "^3.0.3",
+        "body-parser": "^2.3.0",
+        "cors": "^2.8.6",
+        "dotenv": "^17.4.2",
+        "express": "^5.2.1",
+        "jsonwebtoken": "^9.0.3",
+        "mongoose": "^9.7.3",
+        "openai": "^6.45.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-router-dom": "^6.30.4"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.14"
+    }
+}
